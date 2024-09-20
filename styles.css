@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.post-form {
+    margin: 20px;
+}
+
+.posts {
+    margin: 20px;
+}

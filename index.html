@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人博客</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile">
+        <img src="avatar.jpg" alt="头像" class="avatar">
+        <h1>昵称: 张三</h1>
+        <p>性别: 男</p>
+        <p>年龄: 25</p>
+        <p>爱好: 编程, 读书, 旅行</p>
+    </div>
+    <div class="post-form">
+        <h2>发帖子</h2>
+        <form id="postForm">
+            <textarea id="postContent" placeholder="写点什么..."></textarea>
+            <input type="file" id="postImage">
+            <button type="submit">发布</button>
+        </form>
+    </div>
+    <div class="posts" id="posts">
+        <!-- 帖子将显示在这里 -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
